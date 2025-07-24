@@ -2,6 +2,7 @@
 
 ## Overview
 This project demonstrates the deployment of a Cowrie honeypot on Amazon Web Services (AWS) with automated monitoring, email alerts, and log storage capabilities.
+<img width="685" height="474" alt="Capture d'écran 2025-07-24 195538" src="https://github.com/user-attachments/assets/edc1207b-2bbd-4c4a-936d-b319680275de" />
 
 ## Features
 - 🛡️ **Cowrie SSH Honeypot** - Simulates vulnerable SSH services
