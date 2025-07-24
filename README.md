@@ -8,12 +8,6 @@ This project demonstrates the deployment of a Cowrie honeypot on Amazon Web Serv
 - 📧 **Email Alerts** - Real-time notifications of login attempts
 - 🌍 **Geolocation Tracking** - Identifies attacker locations
 - ☁️ **AWS S3 Integration** - Automated log storage
-- 📊 **Monitoring Dashboard** - Track attack patterns
-
-## Architecture
-```
-Internet → EC2 Instance (Cowrie) → Email Alerts + S3 Storage
-```
 
 ## Prerequisites
 - AWS Account with EC2 and S3 access
@@ -78,13 +72,6 @@ Test the honeypot by connecting via SSH:
 ```bash
 ssh -p 2222 root@<your-ec2-public-ip>
 ```
-
-## Monitoring Script Features
-- **Real-time log monitoring** using `tail -f`
-- **Geolocation lookup** via ip-api.com
-- **Email notifications** for login attempts
-- **Command logging** and execution tracking
-- **Automated S3 uploads** for data persistence
 
 ## Sample Output
 The system captures:
