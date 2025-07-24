@@ -99,18 +99,6 @@ The system captures:
 - 📝 **Logging**: Ensure comprehensive log retention
 - 🚨 **Monitoring**: Set up alerts for unusual activity
 
-## File Structure
-```
-├── scripts/
-│   └── cowrie_email_alerts.sh    # Main monitoring script
-├── config/
-│   └── cowrie.cfg.example        # Sample configuration
-├── docs/
-│   └── detailed_setup.md         # Comprehensive guide
-└── images/
-    └── screenshots/              # Setup screenshots
-```
-
 ## Troubleshooting
 
 ### Common Issues
@@ -124,28 +112,8 @@ The system captures:
 - System logs: `/var/log/syslog`
 - Email logs: Check msmtp configuration
 
-## Contributing
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit changes (`git commit -am 'Add new feature'`)
-4. Push to branch (`git push origin feature/improvement`)
-5. Create Pull Request
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-- [Cowrie Honeypot Project](https://github.com/cowrie/cowrie)
-- AWS Documentation
-- Cybersecurity Community
 
 ## Author
 **Aquil Ilyas**
-- Email: aquil.ilyas1@gmail.com
+- Email: aquil.ilyas@gmail.com
 - Project: Honeypot Deployment on AWS
-
-## Disclaimer
-This honeypot is for educational and research purposes only. Ensure compliance with all applicable laws and regulations when deploying in production environments.
-
----
-*Last updated: July 2025*
